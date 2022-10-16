@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "electron": "^21.1.1"
+  },
+  
+  "scripts": {
+    
+    "start": "electron ."
+  },
+  "name": "iphone-alarme-application-electron",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

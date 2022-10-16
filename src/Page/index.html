@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarme</title>
+    <link rel="stylesheet" href="index.css" />
+    <link type="image/png" sizes="96x96" rel="icon" href="Assets/Icon.png" />
+  </head>
+  <body>
+    <div class="counter">
+      <p>
+        <span class="minutes">00</span>:<span class="secondes">00</span>,<span class="millisecondes"
+          >00</span
+        >
+      </p>
+    </div>
+
+    <div class="buttons">
+      <button disabled class="laps">Tour</button>
+      <button class="start">Démarrer</button>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="tours">
+      <ul class="toursList">
+        <li style="display: none">
+          Tour {count}
+          <div class="secondCounter"></div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

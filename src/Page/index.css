@@ -1,0 +1,87 @@
+@import "./reset.css";
+
+body {
+    background-color: black;
+}
+
+.counter p {
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    height: 72px;
+}
+
+.bar {
+    margin-top: 32px;
+    position: fixed;
+    border-bottom: solid 1px grey;
+    width: 268px;
+    margin-left: 44px;
+}
+
+button {
+    width: 57px;
+    height: 57px;
+    border: none;
+    border-radius: 50px;
+}
+
+.start,
+.laps {
+    transition: transform 0.5s;
+}
+
+.laps {
+    opacity: 0.5;
+    background-color: rgb(28 28 28);
+    color: rgb(255 255 255);
+    border: 2px solid rgb(28 28 28);
+    padding: 9px;
+    box-shadow: 0 0 0 3px black inset;
+}
+
+.start {
+    font-size: 11px;
+    background-color: rgb(8 24 9);
+    color: rgb(0 255 0);
+    border: 2px solid rgb(8 24 9);
+    padding: 4px;
+    box-shadow: 0 0 0 3px black inset;
+}
+
+ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.visible {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 24px;
+    margin-left: 43px;
+    margin-right: 37px;
+    margin-top: 2px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(28 28 28);
+}
+
+.start:hover,
+.laps:hover {
+    transform: scale(0.95);
+}
