@@ -1,9 +1,8 @@
 let isStarted = false;
+
 let minutesInterval;
 let secondesInterval;
 let milliSecondesInterval;
-
-const borderCache = "border-top: solid 1px rgb(28 28 28);";
 
 window.onload = function () {
   const minutes = document.getElementsByClassName("minutes")[0];
